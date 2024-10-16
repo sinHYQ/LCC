@@ -1,0 +1,22 @@
+{
+  "name": "images-page",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && node build/merge.js prod",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.31",
+    "mitt": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.4",
+    "sass": "^1.49.11",
+    "sass-loader": "^12.6.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.4",
+    "vue-tsc": "^2.0.24",
+    "@vitejs/plugin-vue-jsx": "^3.0.1"
+  }
+}
